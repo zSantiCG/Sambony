@@ -262,18 +262,28 @@ body{
 
 }
 
+.link2{
+    
+    text-decoration: none;
+
+}
+
 .contain2{
-    margin-top: 10px;
-    display: inline-block;
+    display: inline-flex;
+    width: 30%;
+    height: 20%;
     background: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
-    padding: .4rem .3rem;
+
     border-radius: 100%;
     background-position: center;
     background-size: cover;
+    justify-content: center;
+    margin-top: 8px;
+
 }
 
 .contacto__img{
-    width: 20px;
+    width: 24px;
 }
 
 .copy{
