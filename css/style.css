@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+:root{
+    --font: "Archivo", sans-serif;
+}
+
+
+
+body{
+
+    font-family: var(--font);
+
+}
+
+.main__img{
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 9px #7bb7c9;
+    margin-top: 140px;
+    background-image: linear-gradient(#ffffff00, #ffffff00), url("../assets/icon.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container{
+
+    background-image: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .main__figure{
+    margin-top: 140px;
+} */
+
+.main__title{
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+.main__list{
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-top: 20px;
+    
+
+}
+
+.main__list__items{
+    
+    list-style: none;
+    border: 1px solid #ffffff;
+    padding: .5em 1em;
+    border-radius: 5px;
+    
+}
+
+.main__nav{
+    text-decoration: none;
+    color: #242323dc;
+}
+
+.main__list__items:active{
+    text-decoration: none;
+    background-color: #615e5e6c;
+   
+}
+
+.inicio{
+    background: linear-gradient(135deg, white, gray);
+    height: 200px;
+    width: 50%;
+    margin: 200px auto;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.inicio__img{
+    background-image: linear-gradient(#ffffff00, #ffffff00), url("../assets/img.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: .7rem;
+    width: 2%;
+    border-radius: 50%;
+
+}
+
+.inicio__title{
+    font-size: 1.6rem
+    
+}
+
+.inicio__description{
+    margin-top: 20px;
+    font-size: .9rem;
+    line-height: 20px;
+
+}
+
+
+/* Transicion */
+
+.inicio:hover {-webkit-transform:scale(1.2);transform:scale(1.2);}
+
+.inicio {
+    overflow:hidden;
+    transition:all .5s ease-in-out;
+}
+
+.trabajos__title{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-shadow: 1px -9px 2px 0px  black;
+
+}
+
+.trabajos__description{
+    font-size: 1rem;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contain{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+}
+
+.container1{
+    margin-top: 20px;
+    background-color: #dad6d6;
+    width: 300px;
+    height: 350px;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contain__img{
+    width: 70px;
+    
+}
+
+.html__title{
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.html__description{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.css__title{
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.css__description{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.trabajos{
+    text-align: center;
+}
+
+.trabajos__btm{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: .6em 2em;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 40px auto;
+    
+}
+
+.trabajos__btm:active{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.363);
+    color: #ffffff;
+    padding: .6em 2em;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 40px auto;
+    
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer__contain{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 200px;
+    
+}
+
+.contacto{
+
+    margin-top: 50px;
+
+}
+
+.trabajos1{
+
+    margin-top: 50px;
+
+}
+
+.precios{
+
+    margin-top: 50px;
+
+}
+
+.general__title{
+    font-size: 1.5rem;
+    border-bottom: 2px solid #45c9eb;
+}
+
+.general__list{
+    list-style: none;
+    padding: 0;
+}
+
+.general__item{
+
+    margin-top: 10px;
+
+}
+
+.general__link{
+
+    text-decoration: none;
+    color: #bbb6ae;
+
+}
+
+.contain2{
+    margin-top: 10px;
+    display: inline-block;
+    background: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
+    padding: .4rem .3rem;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.contacto__img{
+    width: 20px;
+}
+
+.copy{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+    position: relative;
+    bottom: 20px;
+}
+
