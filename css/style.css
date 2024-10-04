@@ -295,7 +295,132 @@ body{
     bottom: 20px;
 }
 
+@media (min-width: 400px) and (max-width: 720px){
+    .main{
+        flex-direction: column;
+        gap: 0;
+        justify-self: center;
+
+    }
+
+    .main__title{
+        margin-top: 20px;
+        font-size: 2.7rem;
+    }
+
+    .main__list{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin-top: 20px;
+        
+    
+    }
+    
+    .main_list_items{
+        
+        list-style: none;
+        border: 1px solid #ffffff;
+        padding: .4em .9em;
+        border-radius: 5px;
+        
+    }
+
+    .inicio{
+        background: linear-gradient(135deg, white, gray);
+        height: 280px;
+        width: 300px;
+        margin: 200px auto;
+        padding: 2em;
+        border-radius: 20px;
+    }
+
+    .trabajos__title{
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        text-shadow: 1px -9px 2px 0px  black;
+    
+    }
+    
+    .trabajos__description{
+        font-size: 1em;
+        width: 300px;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .contain{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+            align-items: center;
+    
+    }
+    
+    .container1{
+        margin-top: 20px;
+        background-color: #dad6d6;
+        width: 300px;
+        height: 350px;
+        padding: 2em;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .general__title{
+        font-size: 1.1rem;
+        border-bottom: 2px solid #45c9eb;
+    }
+
+    .general__link{
+        font-size: .8rem;
+    }
+
+    .contacto__img{
+        width: 20px;
+    }
+
+    .contain2{
+
+        display: inline-flex;
+        
+        margin-top: 8px;
+        width: 24px;
+        height: 25px;
+        background: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
+        
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+    }
+    
+       
+    
+}
+
+
+
 @media (min-width: 1100px){
+    .contain2{
+
+        display: inline-flex;
+        
+        margin-top: 8px;
+        width: 30%;
+        height: 23%;
+        background: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
+        
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        
+    
+        
+    }
 
     .main__img{
         width: 230px;
@@ -304,24 +429,9 @@ body{
         border: 3px solid white;
         box-shadow: 0px 0px 9px #7bb7c9;
         margin-top: 140px;
-        background-image: linear-gradient(#ffffff00, #ffffff00), url("../assets/icon.jpeg");
+        background-image: linear-gradient(#ffffff00, #ffffff00), url("../assets/img.jpeg");
         background-position: center;
         background-size: cover;
-    }
-
-
-    .contain2{
-        display: inline-flex;
-        width: 30%;
-        height: 23%;
-        background: linear-gradient(135deg, #4495ca, #c389eb, #eb68d9);
-    
-        border-radius: 100%;
-        background-position: center;
-        background-size: cover;
-        justify-content: center;
-        margin-top: 8px;
-    
     }
 }
 
